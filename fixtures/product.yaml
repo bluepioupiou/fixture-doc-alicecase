@@ -1,0 +1,11 @@
+App\Entity\Product:
+  product1:
+    name: product 1
+    category: category 1
+    owner: '@john'
+    tags: ['tag1', 'tag2', 'tag3']
+  product2:
+    name: product 2
+    category: category 2
+    owner: '@john'
+    tags: ['tag4', 'tag5']

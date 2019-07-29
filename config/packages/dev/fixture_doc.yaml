@@ -1,0 +1,14 @@
+adlarge_fixtures_documentation:
+  title: Documentation alice
+  enableAutoDocumentation: true
+  listenedCommand: hautelook:fixtures:load 
+  configEntities:
+    Product:
+      - id
+      - name
+      - owner
+      - tags
+    Customer:
+      - firstname
+      - lastname
+      - email
