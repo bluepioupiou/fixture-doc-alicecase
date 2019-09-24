@@ -9,3 +9,8 @@ App\Entity\Product:
     category: category 2
     owner: '@john'
     tags: ['tag4', 'tag5']
+  product3:
+    name: product 23
+    category: category 2
+    owner: '@susan'
+    tags: ['tag1', 'tag3']

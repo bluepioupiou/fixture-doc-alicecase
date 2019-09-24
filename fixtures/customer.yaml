@@ -3,3 +3,7 @@ App\Entity\Customer:
     firstname: John
     lastname: Doe
     email: john.doe@test.com
+  susan:
+    firstname: Susan
+    lastname: Doyle
+    email: susan.doyle@test.com

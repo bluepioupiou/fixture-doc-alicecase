@@ -1,7 +1,9 @@
 adlarge_fixtures_documentation:
   title: Documentation alice
   enableAutoDocumentation: true
-  listenedCommand: hautelook:fixtures:load 
+  listenedCommand: hautelook:fixtures:load
+  reloadCommands:
+    - php bin/console doctrine:fixtures:load
   configEntities:
     Product:
       - id
