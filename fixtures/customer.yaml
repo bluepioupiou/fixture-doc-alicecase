@@ -7,3 +7,7 @@ App\Entity\Customer:
     firstname: Susan
     lastname: Doyle
     email: susan.doyle@test.com
+  customer{1..100}:
+    firstname: '<firstName()>'
+    lastname: '<lastName()>'
+    email: '<email()>'

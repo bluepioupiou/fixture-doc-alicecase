@@ -14,3 +14,8 @@ App\Entity\Product:
     category: category 2
     owner: '@susan'
     tags: ['tag1', 'tag3']
+  product{0..1000}:
+    name: '<name()>'
+    category: 'category <numberBetween(1, 100)>'
+    owner: '@customer<numberBetween(1, 100)>'
+    tags: ['tag<numberBetween(1, 10)>', 'tag<numberBetween(1, 10)>']
